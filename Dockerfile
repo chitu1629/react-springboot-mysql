@@ -1,3 +1,4 @@
+#dockerfile
 FROM  ninjamajewski/jdk-mvn-npm:latest
 
 COPY . /
