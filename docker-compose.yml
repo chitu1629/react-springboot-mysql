@@ -1,0 +1,22 @@
+version: '3'
+services:
+  springboot-app:
+    container_name: springboot-con
+    image: springboot-img
+    restart: always
+    build: .
+    ports:
+      - 8090:8080
+    environment:
+      MYSQL_HOST: mysql-con
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_PORT: 3306
+  mysql-db:
+    container_name: mysql-con
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: test
+    ports:
+      - 3306:3306
