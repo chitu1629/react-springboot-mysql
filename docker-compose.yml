@@ -2,7 +2,7 @@ version: '3'
 services:
   springboot-app:
     container_name: springboot-con
-    image: springboot-img
+    image: chiths1616/springboot-img
     restart: always
     build: .
     ports:
