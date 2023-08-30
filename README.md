@@ -59,6 +59,23 @@ $ sudo apt install docker-ce
 sudo apt install docker-compose 
 ```
 
+## Database application using docker compose
+
+Create a dockerfile to build a springboot application
+
+1. Choose a Base Image: Start your Dockerfile with a base image
+2. Copy Files: Use COPY to put your code and files in the image.
+3. Install Dependencies: If needed, use RUN to install requirements.
+4. Expose Ports (Optional): Use EXPOSE for ports your app uses.
+5. Build the Image: Run docker build -t your-image-name ..
+6. Image Verification: Check your new image with docker images.
+   
+The docker compose file will create the containers for the springboot application and mysql database 
+
+1. Create docker-compose.yml: Make a file named docker-compose.yml to define your services (containers) and their configurations.
+2. Define Services: Inside the docker-compose.yml file, list your services, set their images, ports, and any other configurations.
+3. Start Containers: Run docker-compose up to start the services as defined in the file.
+4. Access Services: Access your services using the specified ports in the browser (e.g., <public_ip>:8090).
 
 ####  PostScript
 
