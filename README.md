@@ -147,4 +147,6 @@ If you would like to change which targets should be monitored or make configurat
 
 The below image is the example of tabular format which shows the number of running, stopped and paused containers.
 
-![prometheus 2](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/2c0f2838-390b-4b4a-915a-a2c95abd79ca)
+
+![prometheus 4](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/11f6374c-ac72-4f06-afbb-5e5be2014f46)
+
