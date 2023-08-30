@@ -1,25 +1,29 @@
 
-# React, Spring Boot and MySQL webapp!
+# Create database application using docker compose and monitor the docker containers
 
+## Objective
 
-Hey there! This app is an example application for anyone looking for a web app linking the backend capabilities of Spring Boot (with Hibernate) to excellent frontend offered by React. 
+This app is an example application for anyone looking for a web app linking the backend capabilities of Spring Boot (with Hibernate) to excellent frontend offered by React. 
 
-![Application Home page](https://cdn-images-1.medium.com/max/1000/1*H4KTKqkilycIb1ebhvN85w.png)
-![Uploading Screenshot (1).png…]()
+![app 1](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/ba08d090-df19-45df-8ae4-e57ebf6c16ec)
 
+![app 2](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/4917632d-8f17-4b39-8f2d-5b0f7e4b9b9e)
 
-![List of all data in our React app](https://cdn-images-1.medium.com/max/1000/1*h8A68kGQpM6QoQYOCqux6g.png)
+![app 3](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/b91cec3a-af08-437e-a64e-cbd971ae7ae8)
 
-If you would like to follow on the tutorial for the app you can visit the article on medium: [How to build and deploy React app with Spring Boot and MySQL server](https://medium.com/@mukundmadhav/build-and-deploy-react-app-with-spring-boot-and-mysql-6f888eb0c600).
 
 ## The purpose of the webapp
 
 The purpose of the app was to learn as to : 
 
  1. How to build Spring Boot apps?
- 2. How to build React apps?
- 3. How to encapsulate the backend to the frontend?
- 4. How to deploy React and Spring Boot along with MySQL DB in my server?
+ 2. How to encapsulate the backend to the frontend?
+ 3. How to deploy React and Spring Boot along with MySQL DB in my server?
+ 4. How to dockerize the web application?
+ 5. How to set up docker compose?
+ 6. How to use CICD to automate the build and deployment?
+ 7. How to monitor the docker contianers using Prometheus and Grafana?
+ 8. How to extract docker container logs using ELK?
 
 ### Installation
 
