@@ -18,6 +18,7 @@
   - [Prometheus](#Prometheus)
   - [Grafana](#Grafana)
        - [Queries](#Queries)
+  - [ELK](#ELK)
 
   
 ## Objective
@@ -237,4 +238,6 @@ Clone a git repository to install ELK using a docker-compose file
 ```sh
 https://github.com/chitu1629/elk-with-filebeat-by-docker-compose.git 
 ```
+Withe the help of the docker-compose file Elasticsearch, Logstash, Kibana and Filebeat are created as the containers
  
+![elk 1](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/455d0efb-704b-487a-beef-0f031d566da3)
