@@ -5,7 +5,7 @@
 
 - [Objective](##Objective)
 - purpose
--   - [Overview](#a-prometheus--grafana-docker-compose-stack)
+-   - [Objective](#objective)
   
 ## Objective
 
