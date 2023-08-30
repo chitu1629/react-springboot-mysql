@@ -184,3 +184,7 @@ The below image shows the creation of panel to display the number of running con
 7. Click “Save”
    
 ![grafana 2](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/750e562d-5ce7-4aaa-a720-f0c022db7365)
+
+The below image indicates the creation of panels related to docker container metrics (Status of the container, memory usage of the container, disk usage of the container, CPU usage)
+
+![grafana 3](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/c067dd4d-7cca-4ed0-b1f3-736c6e9a1cfd)
