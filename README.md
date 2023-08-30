@@ -10,6 +10,9 @@
        - [Install node and npm](#Install-node-and-npm)
        - [Install docker and Docker-compose](#Install-docker-and-Docker-compose)
        - [Install jenkins](#Install-jenkins)
+       - [Install prometheus](#Install-prometheus)
+       - [Install Cadvisor](#Install-Cadvisor)
+       - [Install Grafana](#Install-Grafana)
   - [Steps to create docker image](#Create-a-dockerfile-to-build-a-springboot-application)
   - [Steps to create docker compose](#The-docker-compose-file-will-create-the-containers-for-the-springboot-application-and-mysql-database)
 
@@ -69,7 +72,7 @@ $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" 
 $ apt-cache policy docker-ce 
 $ sudo apt install docker-ce
-sudo apt install docker-compose 
+$ sudo apt install docker-compose 
 ```
 
 ### Install jenkins
@@ -83,6 +86,38 @@ $ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   /etc/apt/sources.list.d/jenkins.list > /dev/null  
 $ sudo apt-get update  
 $ sudo apt-get install jenkins  
+```
+
+### Install prometheus
+
+```sh
+$ sudo apt update 
+$ curl -LO https://github.com/prometheus/prometheus/releases/download/v2.0.0/prometheus-2.0.0.linux-amd64.tar.gz 
+$ tar xvf prometheus-2.0.0.linux-amd64.tar.gz 
+$ sudo nano /etc/prometheus/prometheus.yml 
+$ sudo nano /etc/systemd/system/prometheus.service 
+$ sudo systemctl daemon-reload
+$ sudo systemctl start prometheus
+$ sudo systemctl status prometheus
+$ sudo systemctl enable prometheus
+```
+### Install Cadvisor
+
+```sh
+$ sudo apt update 
+$ sudo apt -y install cadvisor  
+$ sudo systemctl status cadvisor 
+```
+
+### Install Grafana
+
+```sh
+$ wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -  
+$ sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"  
+$ sudo apt update  
+$ sudo apt install grafana  
+$ sudo systemctl start grafana-server  
+$ sudo systemctl status grafana-server  
 ```
 
 ## Database application using docker compose
