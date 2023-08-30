@@ -3,8 +3,9 @@
 
 ## Contents
 
-- [Objective](## Objective)
+- [Objective](##Objective)
 - purpose
+-   - [Overview](#a-prometheus--grafana-docker-compose-stack)
   
 ## Objective
 
