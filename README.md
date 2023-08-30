@@ -145,6 +145,10 @@ Prometheus is an open-source monitoring tool which collects metrics from your se
 
 If you would like to change which targets should be monitored or make configuration changes edit the /prometheus/prometheus.yml file. The targets section is where you define what should be monitored by Prometheus.
 
+Default port for prometheus - 9090
+Default port for cadvisor - 8080
+Default port for grafana - 3000
+
 The below image is the example of tabular format which shows the number of running, stopped and paused containers.
 
 
