@@ -17,6 +17,7 @@
   - [Steps to create docker compose](#The-docker-compose-file-will-create-the-containers-for-the-springboot-application-and-mysql-database)
   - [Prometheus](#Prometheus)
   - [Grafana](#Grafana)
+       - [Queries](#Queries)
 
   
 ## Objective
@@ -170,6 +171,24 @@ It's used to display and analyze time-series data, making it a popular choice fo
 http://<public_ip_of_instance>:3000 
 
 ### Queries
+
+The below query will fetch the number of running containers
+
+```sh
+$ engine_daemon_container_states_containers{state="running"}  
+```
+
+The below query will fetch the number of paused containers
+
+```sh
+$ engine_daemon_container_states_containers{state="paused"}  
+```
+
+The below query will fetch the number of stopped containers.
+
+```sh
+$ engine_daemon_container_states_containers{state="stopped"}  
+```
 
 The below image shows the creation of data source and dashboard to save the panels
 
