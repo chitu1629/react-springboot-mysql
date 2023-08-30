@@ -25,9 +25,19 @@ The purpose of the app was to learn as to :
  7. How to monitor the docker contianers using Prometheus and Grafana?
  8. How to extract docker container logs using ELK?
 
-### Installation
+## Installation
 
-Install docker and Docker-compose
+For prerequisite you'll need Java, node, npm, docker, docker-compose, jenkins, maven, Prometheus, Grafana, ELK
+
+### Install Java
+
+```sh
+$ sudo apt update 
+$ sudo apt-get install default-jdk 
+$ java –version 
+```
+
+###Install docker and Docker-compose
 
 ```sh
 $ sudo apt update 
@@ -35,7 +45,8 @@ $ sudo apt install apt-transport-https ca-certificates curl software-properties-
 $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
 $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" 
 $ apt-cache policy docker-ce 
-$ sudo apt install docker-ce 
+$ sudo apt install docker-ce
+sudo apt install docker-compose 
 ```
 
 
