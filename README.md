@@ -238,6 +238,16 @@ Clone a git repository to install ELK using a docker-compose file
 ```sh
 https://github.com/chitu1629/elk-with-filebeat-by-docker-compose.git 
 ```
-Withe the help of the docker-compose file Elasticsearch, Logstash, Kibana and Filebeat are created as the containers
+With the help of the docker-compose file Elasticsearch, Logstash, Kibana and Filebeat are created as the containers
  
 ![elk 1](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/455d0efb-704b-487a-beef-0f031d566da3)
+
+The below image indicates the creation of the index pattern to view logs
+![elk 2](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/a765ef7f-5947-49b5-aa5a-0b9d41495815)
+
+The below image shows the docker container logs are fetched into Kibana with the help of elasticsearch, logstash and filebeat
+![elk 3](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/12a90b04-57ce-4982-a67f-e0919bcd4eda)
+
+The below image shows the docker container logs in gauge format
+![elk 4](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/af3f7411-bdd2-40dc-8fdc-764ad517543b)
+
