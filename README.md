@@ -256,3 +256,6 @@ The below image shows the docker container logs in gauge format.
 
 ![elk 4](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/af3f7411-bdd2-40dc-8fdc-764ad517543b)
 
+## Conclusion
+
+Thus, automated Deployment of a Web Application along with the database using Docker, CICD jenkins is created and implement basic monitoring and logging for the containers using Prometheus and Grafana for monitoring and centralized logging systems like ELK Stack (Elasticsearch, Logstash, Kibana) for log analysis.
