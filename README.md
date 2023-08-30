@@ -234,6 +234,10 @@ The below image indicates the creation of panels related to docker container met
 
 ELK (monitoring tool) is an acronym that stands for Elasticsearch, Logstash, and Kibana. It refers to a set of open-source tools used for log and data management, search, analysis, and visualization. 
 
+1. Default port for elasticsearch - 9200
+2. Default port for logstash - 5044
+3. Default port for kibana - 5601
+
 Clone a git repository to install ELK using a docker-compose file
 
 ```sh
