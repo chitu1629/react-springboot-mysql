@@ -190,6 +190,24 @@ The below query will fetch the number of stopped containers.
 $ engine_daemon_container_states_containers{state="stopped"}  
 ```
 
+The below query will fetch the details of the memory usage of the container.
+
+```sh
+$ sum(container_memory_usage_bytes{name=~".+"}) by (name)  
+```
+
+The below query will fetch the details of the CPU usage of the container in seconds.
+
+```sh
+$ sum(container_cpu_usage_seconds_total{name=~".+"}) by (name)  
+```
+
+The below query will fetch the details of the disk usage of the container.
+
+```sh
+$ sum(container_fs_usage_bytes{name=~".+"}) by (name)  
+```
+
 The below image shows the creation of data source and dashboard to save the panels
 
 ![grafana 1](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/a5f01849-44e4-4902-9fcb-051fb6a1b1e5)
