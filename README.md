@@ -15,6 +15,7 @@
        - [Install Grafana](#Install-Grafana)
   - [Steps to create docker image](#Create-a-dockerfile-to-build-a-springboot-application)
   - [Steps to create docker compose](#The-docker-compose-file-will-create-the-containers-for-the-springboot-application-and-mysql-database)
+  - [Prometheus](#Prometheus)
 
   
 ## Objective
@@ -138,10 +139,12 @@ The docker compose file will create the containers for the springboot applicatio
 3. Start Containers: Run docker-compose up to start the services as defined in the file.
 4. Access Services: Access your services using the specified ports in the browser (e.g., <public_ip>:8090).
 
-####  PostScript
+## Prometheus
 
-I hope this app gives some insight on how to compile the backend and the frontend into a single executable file making deployment a breeze. 
+Prometheus is an open-source monitoring tool which collects metrics from your services and stores them in a time-series database. It can display collected data in tabular or graph form
 
-If you have any feedback or suggestion, let's connect on LinkedIn: [Mukund Madhav](https://www.linkedin.com/in/mukundmadhav02/) or on my website at [mukundmadhav.com](https://mukundmadhav.com)
+If you would like to change which targets should be monitored or make configuration changes edit the /prometheus/prometheus.yml file. The targets section is where you define what should be monitored by Prometheus.
 
-Happy coding 😃
+The below image is the example of tabular format which shows the number of running, stopped and paused containers.
+
+![prometheus 2](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/964f8d94-56ed-4051-8727-6bf9ea47b3bb)
