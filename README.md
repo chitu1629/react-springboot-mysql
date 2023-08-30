@@ -16,6 +16,7 @@
   - [Steps to create docker image](#Create-a-dockerfile-to-build-a-springboot-application)
   - [Steps to create docker compose](#The-docker-compose-file-will-create-the-containers-for-the-springboot-application-and-mysql-database)
   - [Prometheus](#Prometheus)
+  - [Grafana](#Grafana)
 
   
 ## Objective
@@ -145,6 +146,8 @@ Prometheus is an open-source monitoring tool which collects metrics from your se
 
 If you would like to change which targets should be monitored or make configuration changes edit the /prometheus/prometheus.yml file. The targets section is where you define what should be monitored by Prometheus.
 
+http://<public_ip_of_instance>:9090
+
 1. Default port for prometheus - 9090
 2. Default port for cadvisor - 8080
 3. Default port for grafana - 3000
@@ -157,3 +160,15 @@ The below image is the example of tabular format which shows the number of runni
 The below image is the example of graph format which shows the number of running, stopped and paused containers.
 
 ![prometheus 6](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/5f274029-0070-427b-a45e-5b327a9be341)
+
+## Grafana
+
+Grafana is an open-source platform used to create dynamic and visually appealing dashboards. Can arrange panels (visual components) on dashboards to show various metrics in graphs, tables, gauges, and more.
+
+It's used to display and analyze time-series data, making it a popular choice for visualizing performance metrics, system health, and other monitoring data. 
+
+http://<public_ip_of_instance>:3000 
+
+The below image shows the creation of data source and dashboard to save the panels
+
+![grafana 1](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/a5f01849-44e4-4902-9fcb-051fb6a1b1e5)
