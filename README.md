@@ -169,6 +169,8 @@ It's used to display and analyze time-series data, making it a popular choice fo
 
 http://<public_ip_of_instance>:3000 
 
+### Queries
+
 The below image shows the creation of data source and dashboard to save the panels
 
 ![grafana 1](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/a5f01849-44e4-4902-9fcb-051fb6a1b1e5)
