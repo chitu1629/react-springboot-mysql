@@ -150,4 +150,6 @@ The below image is the example of tabular format which shows the number of runni
 
 ![prometheus 4](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/11f6374c-ac72-4f06-afbb-5e5be2014f46)
 
+The below image is the example of graph format which shows the number of running, stopped and paused containers.
+
 ![prometheus 6](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/5f274029-0070-427b-a45e-5b327a9be341)
