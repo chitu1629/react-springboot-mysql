@@ -4,8 +4,9 @@
 ## Contents
 
   - [Objective](#Objective)
-- purpose
--   - [Objective](#objective)
+  - [Purpose](#Purpose)
+  - [Installation](#Installation)
+
   
 ## Objective
 
