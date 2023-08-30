@@ -27,12 +27,15 @@ The purpose of the app was to learn as to :
 
 ### Installation
 
-You'll need maven, npm and JAVA pre-installed, which most probably you'll already have.  To run the application, run the following commands from the console.
+Install docker and Docker-compose
 
 ```sh
-$ mvn clean
-$ mvn package
-$ java -jar target/springboot-0.0.1-SNAPSHOT.jar
+$ sudo apt update 
+$ sudo apt install apt-transport-https ca-certificates curl software-properties-common 
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" 
+$ apt-cache policy docker-ce 
+$ sudo apt install docker-ce 
 ```
 
 
