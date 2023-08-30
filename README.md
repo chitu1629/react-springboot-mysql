@@ -227,3 +227,14 @@ The below image shows the creation of panel to display the number of running con
 The below image indicates the creation of panels related to docker container metrics (Status of the container, memory usage of the container, disk usage of the container, CPU usage)
 
 ![grafana 3](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/c067dd4d-7cca-4ed0-b1f3-736c6e9a1cfd)
+
+## ELK
+
+ELK (monitoring tool) is an acronym that stands for Elasticsearch, Logstash, and Kibana. It refers to a set of open-source tools used for log and data management, search, analysis, and visualization. 
+
+Clone a git repository to install ELK using a docker-compose file
+
+```sh
+https://github.com/chitu1629/elk-with-filebeat-by-docker-compose.git 
+```
+ 
