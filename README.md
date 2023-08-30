@@ -172,3 +172,15 @@ http://<public_ip_of_instance>:3000
 The below image shows the creation of data source and dashboard to save the panels
 
 ![grafana 1](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/a5f01849-44e4-4902-9fcb-051fb6a1b1e5)
+
+The below image shows the creation of panel to display the number of running containers 
+
+1. Select the correct data source
+2. Select “Code” instead of builder
+3. Write a query (here the query is written for displaying the number of running containers)
+4. Select the visualization (bar chart, line graph, pie chart, etc)
+5. Give the name for the panel
+6. Click on the “Run query”
+7. Click “Save”
+   
+![grafana 2](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/750e562d-5ce7-4aaa-a720-f0c022db7365)
