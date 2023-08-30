@@ -1,6 +1,11 @@
 
 # Create database application using docker compose and monitor the docker containers
 
+## Contents
+
+- Objective
+- purpose
+  
 ## Objective
 
 This app is an example application for anyone looking for a web app linking the backend capabilities of Spring Boot (with Hibernate) to excellent frontend offered by React. 
@@ -12,7 +17,7 @@ This app is an example application for anyone looking for a web app linking the 
 ![app 3](https://github.com/chitu1629/react-springboot-mysql/assets/108867392/b91cec3a-af08-437e-a64e-cbd971ae7ae8)
 
 
-## The purpose of the webapp
+## Purpose
 
 The purpose of the app was to learn as to : 
 
@@ -57,6 +62,19 @@ $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ub
 $ apt-cache policy docker-ce 
 $ sudo apt install docker-ce
 sudo apt install docker-compose 
+```
+
+### Install jenkins
+
+```sh
+$ sudo apt update 
+$ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \ 
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null  
+$ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \ 
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \ 
+  /etc/apt/sources.list.d/jenkins.list > /dev/null  
+$ sudo apt-get update  
+$ sudo apt-get install jenkins  
 ```
 
 ## Database application using docker compose
