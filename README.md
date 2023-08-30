@@ -6,6 +6,12 @@
   - [Objective](#Objective)
   - [Purpose](#Purpose)
   - [Installation](#Installation)
+       - [Install Java](#Install-Java)
+       - [Install node and npm](#Install-node-and-npm)
+       - [Install docker and Docker-compose](#Install-docker-and-Docker-compose)
+       - [Install jenkins](#Install-jenkins)
+  - [Steps to create docker image](#Create-a-dockerfile-to-build-a-springboot-application)
+  - [Steps to create docker compose](#The-docker-compose-file-will-create-the-containers-for-the-springboot-application-and-mysql-database)
 
   
 ## Objective
