@@ -36,8 +36,18 @@ $ sudo apt update
 $ sudo apt-get install default-jdk 
 $ java –version 
 ```
+### Install node and npm
 
-###Install docker and Docker-compose
+```sh
+$ curl -sL https://deb.nodesource.com/setup_16.x -o /tmp/nodesource_setup.sh  
+$ sudo bash /tmp/nodesource_setup.sh  
+$ sudo apt install nodejs
+$ sudo apt install npm
+$ npm -v
+$ node -v  
+```
+
+### Install docker and Docker-compose
 
 ```sh
 $ sudo apt update 
